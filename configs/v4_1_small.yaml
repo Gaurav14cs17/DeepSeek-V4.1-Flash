@@ -1,0 +1,17 @@
+vocab_size: 256
+d_model: 128
+n_heads: 4
+d_head: 32
+n_encoder_layers: 4
+n_decoder_layers: 4
+max_seq_len: 128
+swa_window: 16
+csa_compress: 2
+batch_size: 1
+grad_accum: 8
+lr: 0.001
+steps: 500
+device: auto
+memory_budget_mb: 2048
+use_vision: false
+label: "[SIMPLIFIED] V4.1 small — memory-check required"

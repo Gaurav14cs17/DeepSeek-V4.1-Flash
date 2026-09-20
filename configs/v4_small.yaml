@@ -1,0 +1,16 @@
+# Slightly larger than tiny; still aimed at ≤2 GB with micro-batch + checkpointing.
+vocab_size: 256
+d_model: 128
+n_heads: 4
+d_head: 32
+n_layers: 4
+max_seq_len: 128
+dropout: 0.05
+batch_size: 2
+grad_accum: 4
+lr: 0.001
+steps: 500
+warmup: 50
+device: auto
+memory_budget_mb: 2048
+label: "[SIMPLIFIED] small scale — verify memory print before train"

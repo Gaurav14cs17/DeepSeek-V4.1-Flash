@@ -1,0 +1,18 @@
+# DeepSeekFlashV4.1-Mini — tiny CED scale (stage deferred until V4 passes)
+vocab_size: 128
+d_model: 64
+n_heads: 4
+d_head: 16
+n_encoder_layers: 2
+n_decoder_layers: 2
+max_seq_len: 64
+swa_window: 8
+csa_compress: 2
+batch_size: 2
+grad_accum: 2
+lr: 0.003
+steps: 100
+device: auto
+memory_budget_mb: 2048
+use_vision: false
+label: "[SIMPLIFIED] V4.1 tiny — do not train until V4-Mini stage-1+ complete"

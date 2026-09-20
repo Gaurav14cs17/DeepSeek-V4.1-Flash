@@ -1,0 +1,15 @@
+{
+  "parameters": 0,
+  "trainable_parameters": 0,
+  "param_memory_mb": 0.0,
+  "gradient_memory_mb": 0.0,
+  "optimizer_memory_mb": 0.0,
+  "activation_memory_mb_est": 0.0156,
+  "kv_cache_mb": 0.0,
+  "temporary_mb": 0.0,
+  "peak_gpu_memory_mb": 0.0,
+  "allocated_gpu_memory_mb": 0.0,
+  "reserved_gpu_memory_mb": 0.0,
+  "peak_cpu_memory_mb": 632.871,
+  "checkpoint_size_mb": 0.0
+}

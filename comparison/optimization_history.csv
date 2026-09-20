@@ -1,0 +1,8 @@
+experiment,component,version,baseline_version,parameters,active_parameters,gpu_memory_mb,cpu_memory_mb,prefill_ms,decode_ms,total_inference_ms,training_step_ms,training_tokens_per_sec,inference_tokens_per_sec,kv_bytes_per_token,loss,validation_loss,perplexity,max_abs_error,mean_abs_error,timestamp,git_commit
+stage01,tokenizer+embedding+rmsnorm+rope+temp_attn,baseline,,100480,100480,0.0,789.266,,,,3.657287748064846,52489.66046620893,,0,1.6530518531799316,1.5982621252536773,4.944432149691702,,,2026-09-20T11:48:40.214043+00:00,3454681
+rope_formulation,rope,A1_rotate_half,A0_complex,0,,0.0,633.145,,,,,,4331607.620365613,,,,,0.0,0.0,2026-09-20T11:48:41.813709+00:00,3454681
+stage01,tokenizer+embedding+rmsnorm+rope+temp_attn,baseline,,100480,100480,0.0,789.258,,,,3.6037443001987413,53269.854010693954,,0,1.764579176902771,1.6006781816482545,4.956392619371044,,,2026-09-20T11:49:20.006882+00:00,3454681
+rope_formulation,rope,A1_rotate_half,A0_complex,0,,0.0,633.082,,,,,,3863715.858333674,,,,,0.0,0.0,2026-09-20T11:49:21.583939+00:00,3454681
+rope_formulation,rope,A1_rotate_half,A0_complex,0,,0.0,633.227,,,,,,4340685.481050148,,,,,0.0,0.0,2026-09-20T11:50:37.427978+00:00,3454681
+rope_formulation,rope,A1_rotate_half,A0_complex,0,,0.0,632.871,,,,,,4016502.6935708253,,,,,0.0,0.0,2026-09-20T11:51:05.411227+00:00,3454681
+stage01,tokenizer+embedding+rmsnorm+rope+temp_attn,baseline,,100480,100480,0.0,789.402,,,,3.6844356532674283,52102.941617840544,,0,1.7150505781173706,1.6309921979904174,5.108941285879117,,,2026-09-20T11:58:53.394978+00:00,3454681

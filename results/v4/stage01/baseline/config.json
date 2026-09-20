@@ -1,0 +1,33 @@
+{
+  "model": "DeepSeekFlashV4-Mini",
+  "experiment": "stage01",
+  "component": "tokenizer+embedding+rmsnorm+rope+temp_attn",
+  "version": "baseline",
+  "baseline_version": null,
+  "precision": "fp32",
+  "batch_size": 4,
+  "sequence_length": 48,
+  "generation_length": 0,
+  "warmup_iters": 3,
+  "measure_iters": 10,
+  "seed": 42,
+  "config_name": "v4_tiny",
+  "notes": "Stage-1 B0. Temporary inline attention is [EXPERIMENTAL].",
+  "extra": {},
+  "hardware": {
+    "cpu": "x86_64",
+    "platform": "Linux-7.2.4-100.fc43.x86_64-x86_64-with-glibc2.42",
+    "machine": "x86_64",
+    "cuda_available": false,
+    "gpu": null,
+    "gpu_vram_total_mb": 0.0,
+    "gpu_vram_free_mb": 0.0
+  },
+  "software": {
+    "python": "3.12.11",
+    "pytorch": "2.13.0+cu130",
+    "cuda_version": "13.0"
+  },
+  "git_commit": "3454681",
+  "timestamp": "2026-09-20T11:58:53.392378+00:00"
+}

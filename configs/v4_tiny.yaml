@@ -1,0 +1,18 @@
+# DeepSeekFlashV4-Mini — tiny (≤ ~2 GB VRAM / comfortable CPU)
+# Stage-1 uses embedding dim + vocab only; later stages read full fields.
+
+vocab_size: 128          # overwritten by fitted char tokenizer
+d_model: 64
+n_heads: 4
+d_head: 16
+n_layers: 2              # stage-1 baseline uses a tiny stack when attention lands
+max_seq_len: 64
+dropout: 0.0
+batch_size: 4
+grad_accum: 1
+lr: 0.003
+steps: 100
+warmup: 10
+device: auto             # cuda if available and fits, else cpu
+memory_budget_mb: 2048
+label: "[SIMPLIFIED] 2GB-safe educational scale; not production Flash"

@@ -1,0 +1,33 @@
+{
+  "model": "DeepSeekFlashV4-Mini",
+  "experiment": "stage01_rope_baseline",
+  "fidelity": {
+    "tokenizer": "[SIMPLIFIED]",
+    "embedding": "[FAITHFUL]",
+    "rmsnorm": "[FAITHFUL]",
+    "rope": "[FAITHFUL]",
+    "attention_in_train_loop": "[EXPERIMENTAL] temporary inline"
+  },
+  "parameters": 100480,
+  "dataset": "level0_char_corpus",
+  "dataset_chars": 401,
+  "dataset_tokens": 401,
+  "vocab_size": 29,
+  "sequence_length": 48,
+  "batch_size": 4,
+  "steps": 100,
+  "train_loss": 1.7789654731750488,
+  "validation_loss": 1.7110621631145477,
+  "perplexity_val": 5.534837256532688,
+  "device": "cpu",
+  "peak_gpu_memory_mb": 0.0,
+  "peak_cpu_memory_mb": 789.613,
+  "training_time_s": 0.354,
+  "tokens_per_second": 54295.94,
+  "memory_estimates_mb": {
+    "param_mb": 0.383,
+    "optimizer_mb_est": 0.767,
+    "activation_mb_est": 0.094,
+    "total_est_mb": 1.244
+  }
+}
