@@ -1,0 +1,92 @@
+[
+  {
+    "path": "DeepSeekFlashV4-Mini/model/compression.py",
+    "kind": "DEFERRED_OR_NOT_IMPLEMENTED",
+    "detail": "Module raises NotImplementedError or marks DEFERRED=True"
+  },
+  {
+    "path": "DeepSeekFlashV4-Mini/model/dsa.py",
+    "kind": "DEFERRED_OR_NOT_IMPLEMENTED",
+    "detail": "Module raises NotImplementedError or marks DEFERRED=True"
+  },
+  {
+    "path": "DeepSeekFlashV4.1-Mini/model/csa2.py",
+    "kind": "DEFERRED_OR_NOT_IMPLEMENTED",
+    "detail": "Module raises NotImplementedError or marks DEFERRED=True"
+  },
+  {
+    "path": "DeepSeekFlashV4.1-Mini/model/causal_encoder.py",
+    "kind": "DEFERRED_OR_NOT_IMPLEMENTED",
+    "detail": "Module raises NotImplementedError or marks DEFERRED=True"
+  },
+  {
+    "path": "DeepSeekFlashV4.1-Mini/model/ced.py",
+    "kind": "DEFERRED_OR_NOT_IMPLEMENTED",
+    "detail": "Module raises NotImplementedError or marks DEFERRED=True"
+  },
+  {
+    "path": "DeepSeekFlashV4.1-Mini/model/vision_encoder.py",
+    "kind": "DEFERRED_OR_NOT_IMPLEMENTED",
+    "detail": "Module raises NotImplementedError or marks DEFERRED=True"
+  },
+  {
+    "path": "DeepSeekFlashV4.1-Mini/model/multimodal_fusion.py",
+    "kind": "DEFERRED_OR_NOT_IMPLEMENTED",
+    "detail": "Module raises NotImplementedError or marks DEFERRED=True"
+  },
+  {
+    "path": "DeepSeekFlashV4.1-Mini/optimization/fp4_kv_cache.py",
+    "kind": "DEFERRED_OR_NOT_IMPLEMENTED",
+    "detail": "Module raises NotImplementedError or marks DEFERRED=True"
+  },
+  {
+    "path": "DeepSeekFlashV4.1-Mini/optimization/csa2_cache.py",
+    "kind": "DEFERRED_OR_NOT_IMPLEMENTED",
+    "detail": "Module raises NotImplementedError or marks DEFERRED=True"
+  },
+  {
+    "path": "DeepSeekFlashV4.1-Mini/optimization/swa_replay.py",
+    "kind": "DEFERRED_OR_NOT_IMPLEMENTED",
+    "detail": "Module raises NotImplementedError or marks DEFERRED=True"
+  },
+  {
+    "path": "DeepSeekFlashV4-Mini/tests/test_compression.py",
+    "kind": "SOFT_PASS_TEST",
+    "detail": "Deferred test soft-passes with assert True"
+  },
+  {
+    "path": "DeepSeekFlashV4-Mini/tests/test_dsa.py",
+    "kind": "SOFT_PASS_TEST",
+    "detail": "Deferred test soft-passes with assert True"
+  },
+  {
+    "path": "DeepSeekFlashV4.1-Mini/tests/test_ced.py",
+    "kind": "SOFT_PASS_TEST",
+    "detail": "Deferred test soft-passes with assert True"
+  },
+  {
+    "path": "DeepSeekFlashV4.1-Mini/tests/test_csa2.py",
+    "kind": "SOFT_PASS_TEST",
+    "detail": "Deferred test soft-passes with assert True"
+  },
+  {
+    "path": "DeepSeekFlashV4.1-Mini/tests/test_fp4_kv.py",
+    "kind": "SOFT_PASS_TEST",
+    "detail": "Deferred test soft-passes with assert True"
+  },
+  {
+    "path": "DeepSeekFlashV4.1-Mini/tests/test_swa_replay.py",
+    "kind": "SOFT_PASS_TEST",
+    "detail": "Deferred test soft-passes with assert True"
+  },
+  {
+    "path": "DeepSeekFlashV4.1-Mini/tests/test_multimodal.py",
+    "kind": "SOFT_PASS_TEST",
+    "detail": "Deferred test soft-passes with assert True"
+  },
+  {
+    "path": "DeepSeekFlashV4.1-Mini/model/_transformer.py:305",
+    "kind": "SUSPICIOUS",
+    "detail": "pass"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "hardware": {
+    "python": "3.12.11",
+    "platform": "Linux-7.2.4-100.fc43.x86_64-x86_64-with-glibc2.42",
+    "torch": "2.13.0+cu130",
+    "cuda_available": false,
+    "gpu_name": null,
+    "gpu_vram_gb": null
+  },
+  "micro_latency": {
+    "prefill_T64_ms": 7.496
+  },
+  "stage01_baseline_exists": true,
+  "stage01_baseline": {
+    "parameters": 100480,
+    "trainable_parameters": 100480,
+    "active_parameters": 100480,
+    "peak_gpu_memory_mb": 0.0,
+    "peak_cpu_memory_mb": 789.402,
+    "param_memory_mb": 0.3833,
+    "activation_memory_mb": 0.0938,
+    "optimizer_memory_mb": 0.7666,
+    "kv_bytes_per_token": 0.0,
+    "forward_ms": 1.0411098890472203,
+    "p50_latency_ms": 1.0403019841760397,
+    "p95_latency_ms": 1.0817389702424407,
+    "rope_forward_ms": 0.039952900260686874,
+    "train_forward_ms": 1.2525673082564026,
+    "backward_ms": 1.6919178888201714,
+    "optimizer_ms": 0.6579071166925132,
+    "step_ms": 3.602392313769087,
+    "training_step_ms": 3.6844356532674283,
+    "training_time_s": 0.36850126698846,
+    "training_tokens_per_sec": 52102.941617840544,
+    "tokens_per_second": 52102.941617840544,
+    "bench_training_tokens_per_sec": 53297.91518434468,
+    "loss": 1.7150505781173706,
+    "train_loss": 1.7150505781173706,
+    "validation_loss": 1.6309921979904174,
+    "perplexity": 5.108941285879117,
+    "dataset_tokens": 401,
+    "steps": 100
+  },
+  "rope_delta_report_exists": true
+}

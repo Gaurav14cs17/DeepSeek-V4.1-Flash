@@ -1,0 +1,41 @@
+{
+  "steps": [
+    {
+      "cmd": [
+        "/home/ggoswami/miniforge3/bin/python",
+        "/home/ggoswami/Downloads/deepseek_flash_lab/verification/audit_code.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.051
+    },
+    {
+      "cmd": [
+        "/home/ggoswami/miniforge3/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "/home/ggoswami/Downloads/deepseek_flash_lab/verification/tests"
+      ],
+      "returncode": 0,
+      "seconds": 5.782
+    },
+    {
+      "cmd": [
+        "/home/ggoswami/miniforge3/bin/python",
+        "/home/ggoswami/Downloads/deepseek_flash_lab/verification/run_numerical_verification.py"
+      ],
+      "returncode": 0,
+      "seconds": 2.677
+    },
+    {
+      "cmd": [
+        "/home/ggoswami/miniforge3/bin/python",
+        "/home/ggoswami/Downloads/deepseek_flash_lab/verification/run_benchmark_verification.py"
+      ],
+      "returncode": 0,
+      "seconds": 3.881
+    }
+  ],
+  "ok": true,
+  "failed_steps": []
+}
